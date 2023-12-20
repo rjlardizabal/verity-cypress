@@ -45,7 +45,7 @@ describe('booking website', () => {
 
     it('invalid', () => {
 
-        const bookingName = 'Tester mctester'
+        const bookingName = 'Tester  mctester'
         const bookingEmail = 'dfafsd'
         const bookingPhone = '1234'
         const bookingSubject = 'booking subject'
