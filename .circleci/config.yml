@@ -8,4 +8,4 @@ workflows:
       - cypress/run:
           install-browsers: true
           start-command: 'npm run test'
-          cypress-command: 'npx cypress run --browser chrome'
+          cypress-command: 'npx cypress run'
