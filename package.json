@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm cypress:open",
-    "cypress:open": "cypress open"
+    "test": "npm cypress:run",
+    "cypress:open": "cypress open",
+    "test:headless": "npm cypress:run"
   },
   "author": "",
   "license": "ISC",
